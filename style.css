@@ -29,20 +29,19 @@
 .cat-breed p {
     font-size: 16px;
     line-height: 1.5;
-    margin: 0.5em 0;
+    margin: 0.5em 0 1em;
     color: #333;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .cat-container {
         flex-direction: column;
         align-items: center;
     }
-
     .cat-breed {
         flex: 1 1 100%;
         width: 100%;
-        margin: 0.5em 0; /* smaller margin for mobile */
+        margin: 0.5em 0;
     }
 }
 
